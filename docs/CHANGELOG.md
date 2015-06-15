@@ -1,5 +1,13 @@
 
 
+###### 2015.06.15
+
+Removed debug code from AS lib
+iOS: Updated to latest common lib
+Android: Windows: Fix for bug in AIR packager resulting in missing resources
+Android: x86 Support
+
+
 ###### 2015.06.09
 
 Changed core symbol definitions
