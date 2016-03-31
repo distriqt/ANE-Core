@@ -5,9 +5,6 @@
 Latest updates for new notifications and force touch features
 
 
-###### 2016.04.01
-
-
 ###### 2015.06.15
 
 Removed debug code from AS lib
