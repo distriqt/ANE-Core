@@ -1,5 +1,10 @@
 
 
+######  2016.06.28
+
+Update to include common AIR extension classes
+
+
 ###### 2016.04.01
 
 Latest updates for new notifications and force touch features
