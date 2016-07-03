@@ -1,5 +1,10 @@
 
 
+######  2016.07.03
+
+Added new common Android dependencies
+
+
 ######  2016.06.28
 
 Update to include common AIR extension classes
