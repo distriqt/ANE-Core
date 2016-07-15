@@ -1,5 +1,10 @@
 
 
+######  2016.07.16
+
+Updated to be compatible with latest support ANEs
+
+
 ######  2016.07.03
 
 Added new common Android dependencies
