@@ -1,5 +1,10 @@
 
 
+######  2016.08.01
+
+Updated core Android tools
+
+
 ######  2016.07.16
 
 Updated to be compatible with latest support ANEs
