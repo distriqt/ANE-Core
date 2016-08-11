@@ -1,7 +1,5 @@
 
-
-
-This extension was built by distriqt // 
+built by [distriqt //](http://airnativeextensions.com) 
 
 # Core 
 

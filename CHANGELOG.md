@@ -1,5 +1,10 @@
 
 
+###### 2016.08.11 [v2.0.001]
+
+Android support library update and new version system
+
+
 ######  2016.08.01
 
 Updated core Android tools
