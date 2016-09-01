@@ -1,5 +1,10 @@
 
 
+###### 2016.09.01 [v2.0.005]
+
+Added some Android logging utilities
+
+
 ###### 2016.08.11 [v2.0.001]
 
 Android support library update and new version system
