@@ -1,5 +1,10 @@
 
 
+###### 2016.11.14 [v2.0.010]
+
+Added additional Android core class
+
+
 ###### 2016.09.01 [v2.0.005]
 
 Added some Android logging utilities
