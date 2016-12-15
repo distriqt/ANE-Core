@@ -1,5 +1,10 @@
 
 
+###### 2016.12.15 [v2.1.006]
+
+Latest Core additions and added noair version for conflict resolutions
+
+
 ###### 2016.11.14 [v2.0.010]
 
 Added additional Android core class
