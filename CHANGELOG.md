@@ -1,5 +1,10 @@
 
 
+###### 2017.01.12 [v2.1.008]
+
+Small addition of an Android class used by some extensions
+
+
 ###### 2016.12.15 [v2.1.006]
 
 Latest Core additions and added noair version for conflict resolutions
