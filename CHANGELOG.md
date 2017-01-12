@@ -1,5 +1,10 @@
 
 
+###### 2017.01.12 [v2.1.010]
+
+Android: removed some old permissions
+
+
 ###### 2017.01.12 [v2.1.008]
 
 Small addition of an Android class used by some extensions
