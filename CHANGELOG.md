@@ -1,5 +1,10 @@
 
 
+###### 2017.04.06 [v2.1.018]
+
+Updated Android libraries
+
+
 ###### 2017.01.12 [v2.1.010]
 
 Android: removed some old permissions
