@@ -1,5 +1,10 @@
 
 
+###### 2017.04.13 [v2.1.020]
+
+Updates to core libraries
+
+
 ###### 2017.04.06 [v2.1.018]
 
 Updated Android libraries
