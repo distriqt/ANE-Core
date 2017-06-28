@@ -1,5 +1,10 @@
 
 
+###### 2017.06.29 [v2.2.011]
+
+Updates for Firebase Dynamic Links
+
+
 ###### 2017.04.13 [v2.1.020]
 
 Updates to core libraries
