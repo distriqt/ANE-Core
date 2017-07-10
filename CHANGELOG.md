@@ -1,5 +1,10 @@
 
 
+###### 2017.07.10 [v2.3.006]
+
+iOS 10: Centralisation of new notifications delegate
+
+
 ###### 2017.06.29 [v2.2.011]
 
 Updates for Firebase Dynamic Links
