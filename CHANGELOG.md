@@ -1,5 +1,10 @@
 
 
+###### 2017.08.08 [v2.4.047]
+
+Updated framework signature
+
+
 ###### 2017.07.10 [v2.3.006]
 
 iOS 10: Centralisation of new notifications delegate
