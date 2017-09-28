@@ -1,5 +1,10 @@
 
 
+###### 2017.09.29 [v2.5.073]
+
+Updates to the iOS App Delegate overrides to work better with other ANEs
+
+
 ###### 2017.08.08 [v2.4.047]
 
 Updated framework signature
