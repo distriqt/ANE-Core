@@ -1,5 +1,10 @@
 
 
+###### 2017.11.21 [v2.6.084]
+
+Updates for Android core libs
+
+
 ###### 2017.09.29 [v2.5.075]
 
 Updates to the iOS App Delegate overrides to work better with other ANEs
