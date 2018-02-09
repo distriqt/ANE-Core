@@ -1,5 +1,10 @@
 
 
+###### 2018.02.09 [v3.0.117]
+
+Added AppleTV platform and some bug fixes
+
+
 ###### 2017.11.21 [v2.6.084]
 
 Updates for Android core libs
