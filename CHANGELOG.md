@@ -1,5 +1,10 @@
 
 
+###### 2018.02.22 [v3.1.129]
+
+Latest updates to core libraries
+
+
 ###### 2018.02.09 [v3.0.117]
 
 Added AppleTV platform and some bug fixes
