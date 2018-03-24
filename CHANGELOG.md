@@ -1,5 +1,10 @@
 
 
+###### 2018.03.24 [v3.1.152]
+
+Added additional Android support libs
+
+
 ###### 2018.03.10 [v3.1.133]
 
 Updated iOS lib
