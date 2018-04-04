@@ -1,5 +1,10 @@
 
 
+###### 2018.04.04 [v3.1.166]
+
+Updated internal caching of asset files
+
+
 ###### 2018.03.24 [v3.1.152]
 
 Added additional Android support libs
