@@ -1,5 +1,10 @@
 
 
+###### 2018.04.11 [v3.1.170]
+
+Additional Android helpers
+
+
 ###### 2018.04.04 [v3.1.166]
 
 Updated internal caching of asset files
