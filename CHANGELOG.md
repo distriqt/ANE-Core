@@ -1,5 +1,10 @@
 
 
+###### 2018.04.13 [v3.1.174]
+
+Fixed issue with Android extensions accessing AIR view
+
+
 ###### 2018.04.11 [v3.1.170]
 
 Additional Android helpers
