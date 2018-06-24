@@ -1,5 +1,12 @@
 
 
+###### 2018.06.24 [v3.2.198]
+
+```
+Android: Updated image conversion library
+```
+
+
 ###### 2018.06.01 [v3.2.187]
 
 ```
