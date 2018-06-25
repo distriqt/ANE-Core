@@ -1,5 +1,12 @@
 
 
+###### 2018.06.25 [v3.2.202]
+
+```
+Reduced swf-version to increase compatibility
+```
+
+
 ###### 2018.06.24 [v3.2.198]
 
 ```
