@@ -1,5 +1,12 @@
 
 
+###### 2018.08.15 [v3.2.224]
+
+```
+Lowered minimum supported version to AIR 24
+```
+
+
 ###### 2018.07.21 [v3.2.215]
 
 ```
