@@ -1,5 +1,12 @@
 
 
+###### 2018.10.29 [v3.2.239]
+
+```
+Updated generic FileProvider asset utilities for Android
+```
+
+
 ###### 2018.10.27 [v3.2.230]
 
 ```
