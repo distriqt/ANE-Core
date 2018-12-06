@@ -1,5 +1,12 @@
 
 
+###### 2018.12.06 [v3.2.243]
+
+```
+Corrected issue with shortcut actions when in background
+```
+
+
 ###### 2018.10.29 [v3.2.239]
 
 ```
