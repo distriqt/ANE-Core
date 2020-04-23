@@ -1,5 +1,12 @@
 
 
+###### 2020.04.23 [v5.0.338]
+
+```
+Windows bug fix for ADL crash and removed event log usage (resolves #19)
+```
+
+
 ###### 2020.03.20 [v5.0.327]
 
 ```
