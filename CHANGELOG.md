@@ -1,5 +1,13 @@
 
 
+###### 2020.05.15 [v5.1.343]
+
+```
+Updated to new iOS core library xcframework
+Updated windows extcontext base code
+```
+
+
 ###### 2020.04.23 [v5.0.338]
 
 ```
