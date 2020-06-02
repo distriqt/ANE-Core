@@ -1,1 +1,1 @@
-| com.distriqt.Core | 5.1.342 |  |  |
+| com.distriqt.Core | 5.1.345 |  |  |
