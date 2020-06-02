@@ -6,7 +6,6 @@
 Fixed iOS issue with multiple dispatching of launch options (eg notification events)
 ```
 
-
 ###### 2020.05.15 [v5.1.343]
 
 ```
