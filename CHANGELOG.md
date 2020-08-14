@@ -1,5 +1,12 @@
 
 
+###### 2020.08.14 [v6.0.001]
+
+```
+Added macOS Core implementation for macOS extensions
+```
+
+
 ###### 2020.06.02 [v5.1.346]
 
 ```
