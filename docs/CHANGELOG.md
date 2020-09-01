@@ -1,5 +1,12 @@
 
 
+###### 2020.09.01 [v6.1.009]
+
+```
+Updated Core iOS libraries - fixed some iOS 12.4 related issues
+```
+
+
 ###### 2020.08.19 [v6.0.006]
 
 ```

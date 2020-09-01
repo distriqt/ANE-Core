@@ -1,1 +1,1 @@
-| com.distriqt.Core | 6.0.005 |  |  |
+| com.distriqt.Core | 6.1.008 |  |  |
