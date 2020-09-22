@@ -1,5 +1,12 @@
 
 
+###### 2020.09.22 [v6.2.015]
+
+```
+Added additional iOS helper utilities
+```
+
+
 ###### 2020.09.12 [v6.2.013]
 
 ```
