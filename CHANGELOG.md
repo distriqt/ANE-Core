@@ -1,5 +1,12 @@
 
 
+###### 2020.12.07 [v6.3.022]
+
+```
+Corrected framework in macOS build which caused issues with signing
+```
+
+
 ###### 2020.09.22 [v6.2.015]
 
 ```
