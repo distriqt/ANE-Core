@@ -1,1 +1,1 @@
-| com.distriqt.Core | 6.3.021 |  |  |
+| com.distriqt.Core | 6.3.022 |  |  |
