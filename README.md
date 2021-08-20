@@ -5,13 +5,13 @@ built by [distriqt //](https://airnativeextensions.com)
 
 # Core 
 
-This extension doesn't provide any functionality in itself but supports some of our other extensions. 
-It's a centralised location for some common actions that can cause issues if they are implemented in 
+This extension doesn't provide any functionality in itself but supports many of distriqt's extensions. 
+It is a centralised location for some common actions that can cause issues if they are implemented in 
 each individual extension. 
 
 There are two main purposes of this ANE:
 - Manage global notifications required by multiple ANEs 
-- Centralise libraries to avoid conflicts 
+- Centralise libraries to avoid conflicts and duplication
 
 Where directed, include this ANE and call the following along with the other ANE initialisations.
 
