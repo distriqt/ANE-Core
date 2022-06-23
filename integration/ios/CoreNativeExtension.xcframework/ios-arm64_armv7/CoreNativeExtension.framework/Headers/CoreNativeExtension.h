@@ -6,7 +6,11 @@
 //  Copyright (c) 2015 distriqt. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
+#if !TARGET_OS_OSX
 #import <UIKit/UIKit.h>
+#endif
 
 //! Project version number for CoreNativeExtension.
 FOUNDATION_EXPORT double CoreNativeExtensionVersionNumber;
@@ -14,7 +18,6 @@ FOUNDATION_EXPORT double CoreNativeExtensionVersionNumber;
 //! Project version string for CoreNativeExtension.
 FOUNDATION_EXPORT const unsigned char CoreNativeExtensionVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <CoreNativeExtension/PublicHeader.h>
 
 
 #import <CoreNativeExtension/DTFREUtils.h>

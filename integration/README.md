@@ -1,8 +1,11 @@
 
 Core Libraries for the distriqt native extensions.
 
-- iOS: CoreNativeExtension framework 
-- Android: corenativeextension.lib 
+- iOS/tvOS/macOS: 
+  -  `CoreNativeExtension.xcframework` 
+- Android: 
+  - `corenativeextension.android.lib.air.jar` : AIR common interfaces for activity state callbacks
+  - `corenativeextension.android.lib.jar` : 
 
 These are packaged into the Core ANE but we link each ANE against them to provide common functionality.
 
@@ -13,29 +16,33 @@ These are packaged into the Core ANE but we link each ANE against them to provid
 >
 
 
+# Packaging
 
-# iOS 
+It is important that you **do not** package these libraries in your extension.
+
+You should instead include the [`Core` extension](https://github.com/distriqt/ANE-Core) in your application which contains these libraries (iOS frameworks and android jars).
 
 
-## Add the framework
 
-In order to use this functionality on iOS you will need to import the framework header:
+# iOS/tvOS/macOS 
+
+
+## Add the xcframework
+
+Firstly drag the xcframework into your Xcode project and include it in your build.
+
+Then import the framework header to expose the framework's functionality:
 
 ```objc
 #import <CoreNativeExtension/CoreNativeExtension.h>
 ```
 
 
-## iOS UIApplicationDelegate 
+## `UIApplicationDelegate` 
 
-The most important part on iOS is the application delegate (`UIApplicationDelegate`) functionality 
-conversion into notifications which we use for all our ANEs that require `UIApplicationDelegate` functions.
-This functionality overrides the default application delegate and creates notifications from the delegate
-calls that we can use in multiple native extensions.
+The most important part for most developers is the application delegate (`UIApplicationDelegate`) functionality. This converts the delegate methods calls into notifications which we use for all our extensions that require `UIApplicationDelegate` functions and allows multiple extensions to access this same functionality. 
 
-
-The `DTNotifications` class is the central location for this code. In order to use this in your application
-you must create an instance of this class in your main context initializer:
+The `DTNotifications` class is the central location for this code. In order to use this in your application you must create an instance of this class in your main context initializer:
 
 ```objc
 DTNotifications* yourextension_notifications;
@@ -126,23 +133,19 @@ All of these are optional, so you can implement only the functions you need.
 
 ### Checking launch options
 
-When initialised the `DTNotifications` class tracks the launch options, however you can 
-control when your delegate receives the launch notifications by calling `checkLaunchOptions` 
-at a specific place in your code.
+When initialised the `DTNotifications` class tracks the launch options, however you can control when your delegate receives the launch notifications by calling `checkLaunchOptions` at a specific place in your code.
 
-This allows you to ensure that you can create your notifications delegate in your native 
-extension before the `didFinishLaunchingWithOptions` is called. Normally this function would
-be called well before your extension is created. 
+This allows you to ensure that you can create your notifications delegate in your native extension and setup any SDKs you are using before the `didFinishLaunchingWithOptions` is called. Normally this function would be called well before your extension is created. 
 
-You will probably need a dedicated native extension function in your extension to call this
-to allow the ANE user to have correctly added event handlers etc.
+You will probably need a dedicated native extension function in your extension to call this to allow the ANE user to have correctly added event handlers etc. This is not a requirement, we often bundle the call of this in a particular call of the extension, eg when a developer calls something like `MyExtension.instance.initialiseSDK()`. 
 
+The important thing to note is that calling this function will result in the `didFinishLaunchingWithOptions` method in your delegate being called with the launch options.
 
 ```objc
 [yourextension_notifications checkLaunchOptions];
 ```
 
-Eg:
+For example, calling it in a dedicated function:
 
 ```objc
 FREObject YOUREXTENSIONCheckStartupData( FREContext ctx, void* funcData, uint32_t argc, FREObject argv[] )
@@ -154,4 +157,27 @@ FREObject YOUREXTENSIONCheckStartupData( FREContext ctx, void* funcData, uint32_
     return NULL;
 }
 ```
+
+
+## Usage
+
+You must ensure your developers call `Core.init();` some point in their application before initialising your extension.
+
+This call is responsible for initialising the UIApplicationDelegate and without calling it, none of the above functionality will work.
+
+
+
+# Android 
+
+## Activity State 
+
+If you use any of the activity state callbacks from AIR you should include the `corenativeextension.android.lib.air.jar` in your Android project and link against the AIR classes exposed there. This will avoid conflicts.
+
+This library contains:
+
+- `com.adobe.air.ActivityResultCallback`
+- `com.adobe.air.StateChangeCallback`
+- `com.adobe.air.InputEventCallback`
+
+If you utilise any of these interfaces then we suggest you use this library instead of defining them in your own code.
 

@@ -1,0 +1,6 @@
+framework module CoreNativeExtension {
+  umbrella header "CoreNativeExtension.h"
+
+  export *
+  module * { export * }
+}

@@ -7,8 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
 
+#if !TARGET_OS_OSX
+
+
+#import <UIKit/UIKit.h>
 
 #define DTCoreDidRegisterForRemoteNotificationsWithDeviceTokenNotification  @"dtCoreDidRegisterForRemoteNotificationsWithDeviceTokenNotification"
 #define DTCoreDidFailToRegisterForRemoteNotificationsWithErrorNotification  @"dtCoreDidFailToRegisterForRemoteNotificationsWithErrorNotification"
@@ -20,10 +23,20 @@
 #define DTCoreHandleActionWithIdentifierForLocalNotificationCompletionHandlerNotification  @"dtCoreHandleActionWithIdentifierForLocalNotificationCompletionHandlerNotification"
 
 #define DTCoreDidFinishLaunchingWithOptionsNotification  @"dtCoreDidFinishLaunchingWithOptionsNotification"
+#define DTCoreApplicationContinueUserActivityNotification @"dtCoreApplicationContinueUserActivityNotification"
 #define DTCoreDidRegisterUserNotificationSettingsNotification  @"dtCoreDidRegisterUserNotificationSettingsNotification"
 #define DTCoreOpenURLNotification  @"dtCoreOpenURLNotification"
 #define DTCoreOpenURLOptionsNotification @"dtCoreOpenURLOptionsNotification"
 #define DTCorePerformActionForShortcutItemNotification @"dtCorePerformActionForShortcutItemNotification"
+
+
+#define DTCoreRequestUserNotificationDelegateEventNotification @"dtCoreRequestUserNotificationDelegateEventNotification"
+#define DTCoreUserNotificationWillPresentNotification @"dtCoreUserNotificationWillPresentNotification"
+#define DTCoreUserNotificationDidReceiveResponseNotification @"dtCoreUserNotificationDidReceiveResponseNotification"
+
+#define DTCoreUserNotificationWillPresentResultNotification @"dtCoreUserNotificationWillPresentResultNotification"
+#define DTCoreUserNotificationDidReceiveResponseResultNotification @"dtCoreUserNotificationDidReceiveResponseResultNotification"
+
 
 
 @protocol DTNotificationsDelegate <NSObject>
@@ -32,21 +45,27 @@
 
 
 -(void) didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken;
+#if !TARGET_OS_TV
 -(void) didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings;
+#endif
 -(void) didFailToRegisterForRemoteNotificationsWithError:(NSError *)error;
 
 -(void) didReceiveRemoteNotification:(NSDictionary*)userInfo;
 -(void) didReceiveRemoteNotification:(NSDictionary*)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult result))completionHandler;
--(void) handleActionWithIdentifier: (NSString*)identifier forRemoteNotification: (NSDictionary*)notification;
+-(void) handleActionWithIdentifier: (NSString*)identifier forRemoteNotification: (NSDictionary*)notification completionHandler:(void(^)(void))handler;
 
+#if !TARGET_OS_TV
 -(void) didReceiveLocalNotification:(UILocalNotification*)notification;
--(void) handleActionWithIdentifier: (NSString*)identifier forLocalNotification: (UILocalNotification*)notification;
+-(void) handleActionWithIdentifier: (NSString*)identifier forLocalNotification: (UILocalNotification*)notification completionHandler:(void(^)(void))handler;
+#endif
 
 -(void) didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
+-(void) continueUserActivity: (NSUserActivity*)userActivity;
 -(void) openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation;
 -(void) openURL:(NSURL *)url options: (NSDictionary*)options;
--(void) performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem;
-
+#if !TARGET_OS_TV
+-(void) performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void(^)(BOOL))handler;
+#endif
 
 @end
 
@@ -67,3 +86,4 @@
 
 
 
+#endif
