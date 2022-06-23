@@ -1,9 +1,15 @@
+###### 2022.06.23 [v6.4.6]
+
+```
+fix(macos): correct format of frameworks included in macos build allowing symlinks
+feat(integration): update public integration libraries
+```
+
 ###### 2021.08.20 [v6.4.3]
 
 ```
 AIR package release
 ```
-
 
 
 ###### 2021.05.18 [v6.4.001]
