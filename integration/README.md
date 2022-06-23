@@ -1,19 +1,24 @@
 
-Core Libraries for the distriqt native extensions.
+# Integration with the Core ANE
+
+These libraries facilitate AIR native extension developers to build extensions that work alongside each other in the hope of providing a more consistent environment for developing extensions and reducing the integration issues of using ANEs.
+
+In particular these libraries give you access to the UIApplicationDelegate methods on iOS to allow you to respond to application events (launch data, notifications etc) and also expose some important interfaces for monitoring the activity lifecycle on Android.
+
+
+Core Libraries for the distriqt native extensions include:
 
 - iOS/tvOS/macOS: 
   -  `CoreNativeExtension.xcframework` 
 - Android: 
   - `corenativeextension.android.lib.air.jar` : AIR common interfaces for activity state callbacks
-  - `corenativeextension.android.lib.jar` : 
+  - `corenativeextension.android.lib.jar` : Extension utilities
 
 These are packaged into the Core ANE but we link each ANE against them to provide common functionality.
 
 >
-> We are providing these libraries to facilitate ANE developers to build extensions that work 
-> alongside each other in the hope of providing a more consistent environment for developing 
-> extensions and reducing the integration issues of using ANEs.
->
+> We provide these with the expectation that you understand and are familiar with native and AIR extension development. This isn't documentation on how to develop an extension.
+>  
 
 
 # Packaging
