@@ -1,3 +1,9 @@
+###### 2022.08.01 [v6.4.8]
+
+```
+fix(android): add some additional file provider utilities for handling cache files
+```
+
 ###### 2022.08.01 [v6.4.7]
 
 ```
