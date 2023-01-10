@@ -1,3 +1,11 @@
+###### 2023.01.10 [v7.0.0]
+
+```
+feat(ios): remove bitcode 
+feat(ios): add no-objc-msgsend-selector-stubs compiler flag
+feat(android): add centralised permissions/auth functionality using new AIR callbacks
+```
+
 ###### 2022.08.01 [v6.4.8]
 
 ```
