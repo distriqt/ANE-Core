@@ -1,3 +1,9 @@
+###### 2023.01.16 [v7.0.1]
+
+```
+feat(android): add additional authorisation type to return events for distinguishing request source
+```
+
 ###### 2023.01.10 [v7.0.0]
 
 ```
