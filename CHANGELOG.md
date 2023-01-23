@@ -1,3 +1,9 @@
+###### 2023.01.23 [v7.0.2]
+
+```
+feat(android): add additional authorisation types for services that distinguish between always and in use
+```
+
 ###### 2023.01.16 [v7.0.1]
 
 ```
