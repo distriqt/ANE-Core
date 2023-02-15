@@ -1,3 +1,10 @@
+###### 2023.02.15 [v7.2.0]
+
+```
+feat(macos): add support for apple silicon processors
+fix(android,auth): correct issue with fallback authorisation implementation events being dispatched to wrong extension
+```
+
 ###### 2023.01.23 [v7.0.2]
 
 ```

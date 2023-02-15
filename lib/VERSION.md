@@ -2,4 +2,4 @@
 
 | Extension | Version | Android Lib | iOS Lib |
 | --- | --- | --- | --- |
-| com.distriqt.Core | 7.0.2 |  |  |
+| com.distriqt.Core | 7.2.0 |  |  |
