@@ -1,3 +1,9 @@
+###### 2023.06.29 [v7.3.1]
+
+```
+feat(android): auth updates to ensure compatibility with unity and other frameworks
+```
+
 ###### 2023.06.13 [v7.3.0]
 
 ```
