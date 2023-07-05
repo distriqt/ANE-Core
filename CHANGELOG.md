@@ -1,3 +1,9 @@
+###### 2023.07.06 [v7.4.0]
+
+```
+feat(android): new IExtensionContext implementation to automatically create an activity for handling activity results
+```
+
 ###### 2023.06.29 [v7.3.1]
 
 ```
