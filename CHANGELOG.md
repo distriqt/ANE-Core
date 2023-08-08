@@ -1,3 +1,9 @@
+###### 2023.08.08 [v7.5.0]
+
+```
+feat(android): add new IActivityResultExtensionContext to simplify handling startActivityForResult on various platforms
+```
+
 ###### 2023.07.06 [v7.4.0]
 
 ```
