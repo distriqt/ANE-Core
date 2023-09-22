@@ -1,3 +1,9 @@
+###### 2023.09.22 [v7.5.1]
+
+```
+fix(android): correct operation of authorisation result callbacks and add a complete event
+```
+
 ###### 2023.08.08 [v7.5.0]
 
 ```
