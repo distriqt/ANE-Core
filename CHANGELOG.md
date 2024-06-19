@@ -1,3 +1,10 @@
+###### 2024.06.19 [v7.5.2]
+
+```
+fix(ios): correct a potential issue in the FRE image utilities
+fix(android): correct handling of '%' characters and other potential faults in logging implementation
+```
+
 ###### 2023.09.22 [v7.5.1]
 
 ```
