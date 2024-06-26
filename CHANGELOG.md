@@ -1,3 +1,9 @@
+###### 2024.06.26 [v7.5.4]
+
+```
+feat(android): common permission helpers to better handle denied state
+```
+
 ###### 2024.06.25 [v7.5.3]
 
 ```
