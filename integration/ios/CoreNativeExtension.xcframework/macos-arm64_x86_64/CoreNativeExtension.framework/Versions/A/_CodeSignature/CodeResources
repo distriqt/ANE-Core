@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		hN9F8k+fb+5/OSM7/nNYiA0u4P0=
+		hSuBYEIB6Xbl2uFda6A+yC4jVZE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,11 +15,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SmhfOr6FM5ZSFn+YWL4Xa+rQYDU=
+			th+VuNUWUg/nI8XyDDSIpq/eZ0I=
 			</data>
 			<key>hash2</key>
 			<data>
-			qTEwJbPrmglO83brV1LNviZykuQdPe3niZ7Zrl2iemI=
+			Y/sw9vQXXmsHiC/PDBqiR1SrPWwsbWUKOKp+BuxNMbM=
 			</data>
 		</dict>
 		<key>Headers/DTExtensionBase.h</key>
@@ -55,6 +55,17 @@
 			JZ64UAfkAn+CDDadL1sfQfQd1GjaA4nmRJaURI478wk=
 			</data>
 		</dict>
+		<key>Headers/DTJSONUtils.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			28+1GrSlJhDI9Pw6E6yf/n9vq+E=
+			</data>
+			<key>hash2</key>
+			<data>
+			HGx0Dci/Jp8ifdskRt8GSFqcwgBO0tZEyHHgOcuucCY=
+			</data>
+		</dict>
 		<key>Headers/DTNotifications.h</key>
 		<dict>
 			<key>hash</key>
@@ -81,22 +92,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KF+JejML9D3ts1Po2TH3KQ9MY/M=
+			iEfdyJM+nvQc4pUxJb09/e0ZHsw=
 			</data>
 			<key>hash2</key>
 			<data>
-			qIpwotg2qqondIGXun9P7Q/0MKNGdRRv7c78PtzVJvM=
+			qUSkHDLlj7DSPAleH2jsdJU706F6fBw5HumSaiUZWpk=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hN9F8k+fb+5/OSM7/nNYiA0u4P0=
+			hSuBYEIB6Xbl2uFda6A+yC4jVZE=
 			</data>
 			<key>hash2</key>
 			<data>
-			pCVSxyb3rxnoem9UZQ0n9umFT0GXd4VtnaignBRYI6A=
+			dI5yuiI34VegNikrt3+7/c11Hh8mVNeseN5GzAdv5oA=
 			</data>
 		</dict>
 	</dict>

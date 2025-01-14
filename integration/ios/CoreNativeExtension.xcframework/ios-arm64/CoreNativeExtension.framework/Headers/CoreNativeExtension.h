@@ -24,4 +24,5 @@ FOUNDATION_EXPORT const unsigned char CoreNativeExtensionVersionString[];
 #import <CoreNativeExtension/DTFREImageUtils.h>
 #import <CoreNativeExtension/DTExtensionBase.h>
 #import <CoreNativeExtension/DTNotifications.h>
+#import <CoreNativeExtension/DTJSONUtils.h>
 

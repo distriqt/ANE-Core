@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/CoreNativeExtension.h</key>
 		<data>
-		SmhfOr6FM5ZSFn+YWL4Xa+rQYDU=
+		th+VuNUWUg/nI8XyDDSIpq/eZ0I=
 		</data>
 		<key>Headers/DTExtensionBase.h</key>
 		<data>
@@ -20,6 +20,10 @@
 		<data>
 		tlqdivycHBvyTMOdwkcC7bYjBCY=
 		</data>
+		<key>Headers/DTJSONUtils.h</key>
+		<data>
+		28+1GrSlJhDI9Pw6E6yf/n9vq+E=
+		</data>
 		<key>Headers/DTNotifications.h</key>
 		<data>
 		HqvamJMPTUgLFefoowpbECtdExs=
@@ -30,11 +34,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2w14tq6IkZWoNUBtrvWUUySzBOg=
+		6bgpi6BmMTg20bmLgnqtwz45KYA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		KF+JejML9D3ts1Po2TH3KQ9MY/M=
+		iEfdyJM+nvQc4pUxJb09/e0ZHsw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -43,11 +47,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SmhfOr6FM5ZSFn+YWL4Xa+rQYDU=
+			th+VuNUWUg/nI8XyDDSIpq/eZ0I=
 			</data>
 			<key>hash2</key>
 			<data>
-			qTEwJbPrmglO83brV1LNviZykuQdPe3niZ7Zrl2iemI=
+			Y/sw9vQXXmsHiC/PDBqiR1SrPWwsbWUKOKp+BuxNMbM=
 			</data>
 		</dict>
 		<key>Headers/DTExtensionBase.h</key>
@@ -83,6 +87,17 @@
 			JZ64UAfkAn+CDDadL1sfQfQd1GjaA4nmRJaURI478wk=
 			</data>
 		</dict>
+		<key>Headers/DTJSONUtils.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			28+1GrSlJhDI9Pw6E6yf/n9vq+E=
+			</data>
+			<key>hash2</key>
+			<data>
+			HGx0Dci/Jp8ifdskRt8GSFqcwgBO0tZEyHHgOcuucCY=
+			</data>
+		</dict>
 		<key>Headers/DTNotifications.h</key>
 		<dict>
 			<key>hash</key>
@@ -109,11 +124,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KF+JejML9D3ts1Po2TH3KQ9MY/M=
+			iEfdyJM+nvQc4pUxJb09/e0ZHsw=
 			</data>
 			<key>hash2</key>
 			<data>
-			qIpwotg2qqondIGXun9P7Q/0MKNGdRRv7c78PtzVJvM=
+			qUSkHDLlj7DSPAleH2jsdJU706F6fBw5HumSaiUZWpk=
 			</data>
 		</dict>
 	</dict>
