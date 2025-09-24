@@ -44,4 +44,4 @@ If you can't find a solution in the existing issues, then feel free to start a n
 Remember there are no silly questions and we are here to help you as best we can! 
 We just ask that you provide as much information about your problem as possible, such as platform, versions, AIR SDK used etc.
 
-[Ask a question](../../../issues/new)
+[Ask a question](../../../issues/new/choose)

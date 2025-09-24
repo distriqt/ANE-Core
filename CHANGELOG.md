@@ -1,3 +1,10 @@
+###### 2025.09.24 [v7.5.5]
+
+```
+feat(macos): correct minimum macos version to 10.13
+feat(ios): update to latest xcode
+```
+
 ###### 2024.06.26 [v7.5.4]
 
 ```
